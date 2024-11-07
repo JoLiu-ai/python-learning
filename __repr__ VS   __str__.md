@@ -1,6 +1,6 @@
 - 当调用 repr(obj) 或直接在交互式解释器中输入对象名称时，Python 会调用 \__repr\__，如未定义__repr__方法，Vector实例在Python控制台中显示为<Vector object at 0x10e100070>形式。
 - 当调用 str(obj) 或使用 print(obj) 输出对象时，Python 会调用 \__str\__。如果对象没有定义 \__str\__ 方法，Python 会回退使用 \__repr\__ 的返回值
--  \__repr \__ is for developers,  \__str \__ is for customers.
+-  \__repr \__ is for developers,  \__str \__ is for customers.   
 https://stackoverflow.com/questions/1436703/what-is-the-difference-between-str-and-repr
 
   ```python
